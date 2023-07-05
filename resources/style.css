@@ -13,12 +13,13 @@ body{
 }
 td {
     /* margin: 10px; */
-    border:1px solid #adadad;
+    /* border:1px solid #adadad; */
     /* padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px; */
     /* padding:10px; */
     /* background-color: lightgreen; */
+    text-align: center;
 }
 table {
     font-size:2.3vh;
@@ -26,7 +27,8 @@ table {
     font-family:'';
     /* margin:0px; */
     /* padding:0px; */
-    background-color: lightgreen;
+    background-color: rgb(241, 173, 84);
+    /* background-color: darkorange; */
     width:100vw;
     height:5vh;
 }
@@ -45,7 +47,7 @@ a{
     background-color: red;
     text-align: center;
     /* background-image: url(landscape.jpg); */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(landscape.jpg);
+    background: linear-gradient(rgba(73, 72, 72, 0.5), rgba(73, 72, 72, 0.5)), url(landscape1.jpg);
 
 }
 
@@ -58,16 +60,23 @@ a{
     /* font-size:2vh; */
 }
 .intro-mid {
-    color:rgb(230, 213, 142);
-    margin-right:10vw;
-    margin-left:10vw;
-    margin-top:10vh;
+    color:rgb(230, 221, 185);
+    margin-right:8vw;
+    margin-left:8vw;
+    margin-top:8vh;
     font-family:'Inter';
     /* font-size:1.7vh; */
 }
 
 .intro-end {
-    /* color:white; */
+    color:rgb(231, 220, 174);
     /* vertical-align: bottom; */
-    /* margin-top:5vh; */
+    margin-top:4vh;
+}
+.button {
+    margin-top:2vh;
+    font-family:monospace;
+    width:90px;
+    height:30px;
+    /* background-color:s; */
 }
