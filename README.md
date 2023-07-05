@@ -1,5 +1,5 @@
 # MyWebsite
-My simple website.
+My simple website :)
 
 # Author
 Pisswasser
