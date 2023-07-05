@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
+<header>
+    <link rel="stylesheet" href="resources/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <!-- <source src="resources/script.js"> -->
+    <script>
+        function randomIntFromInterval(min, max) { // min and max included 
+            return Math.floor(Math.random() * (max - min + 1) + min)
+        }
+        function changewallpaper() {
+            document.getElementById("image-div").style.background = "linear-gradient(rgba(073, 72, 72, 0.5), rgba(73, 72, 72, 0.5)), url('resources/landscape" + randomIntFromInterval(1, 7).toString() + ".jpg')";
+        }
+    </script>
+</header>
+
 <body>
-
-<h1>Hi!</h1>
-
-<p>Actually, This is not my first website.</p>
-
+    <div class="main">
+        <table class="table">
+            <tr>
+                <td style="border-right:1px white solid"><a href="#">home</a></td>
+                <td style="border-right:1px white solid"><a href="#">store</a></td>
+                <td style="border-right:1px white solid"><a href="#">about me</a></td>
+                <td><a href="#">contact me</a></td>
+            </tr>
+        </table>
+        <div class="image-div" id="image-div">
+            <h1 class="intro-top">Welcome to my website!</h1>
+            <h2 class="intro-mid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, velit?
+                Voluptate, eaque neque? Atque saepe quidem maxime nostrum ut sed odit? Omnis doloremque quas
+                dignissimos alias architecto ipsa id aliquid magnam saepe cum, doloribus suscipit laboriosam
+                possimus culpa fugit in earum at ea ut eum hic necessitatibus eveniet? Pariatur maxime nisi odio nam
+                voluptates, magnam quibusdam eum? Quae animi perspiciatis explicabo error ut ipsa inventore enim
+                provident officia dolor minima, eos dolore eveniet itaque, sint temporibus atque? Unde officia
+                labore ab temporibus inventore blanditiis quisquam laborum possimus ipsum. Fugit repudiandae veniam
+                amet molestias minus beatae cupiditate ex. Suscipit unde labore quis. Non facere magnam eaque,
+                libero modi vel mollitia corrupti nam dolor error, incidunt quia. Aspernatur sit quidem veniam
+                exercitationem?</h2>
+            <!-- <p>Actually, This is not my first website.</p> -->
+            <h3 class="intro-end">press the button bellow to change the background!</h3>
+            <button class="button" onclick="changewallpaper()">PRESS ME!</button>
+        </div>
+    </div>
 </body>
+
 </html>
