@@ -1,5 +1,5 @@
-# demoHtml
-A Demo HTML Site from the Computing Fundamentals Course
+# MyWebsite
+My simple website.
 
 # Author
 Pisswasser
