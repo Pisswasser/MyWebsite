@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="resources/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <!-- <source src="resources/script.js"> -->
     <script>
         function randomIntFromInterval(min, max) { // min and max included 
@@ -11,6 +12,8 @@
         }
         function changewallpaper() {
             document.getElementById("image-div").style.background = "linear-gradient(rgba(073, 72, 72, 0.5), rgba(73, 72, 72, 0.5)), url('resources/landscape" + randomIntFromInterval(1, 7).toString() + ".jpg')";
+            document.getElementById("image-div").style.backgroundRepeat = "no-repeat"
+            document.getElementById("image-div").style.backgroundSize = "cover"
         }
     </script>
 </header>
@@ -19,13 +22,13 @@
     <div class="main">
         <table class="table">
             <tr>
-                <td style="border-right:1px white solid"><a href="#">home</a></td>
-                <td style="border-right:1px white solid"><a href="#">store</a></td>
-                <td style="border-right:1px white solid"><a href="#">about me</a></td>
+                <td style="border-right:2px white solid"><a href="#">home</a></td>
+                <td style="border-right:2px white solid"><a href="#">store</a></td>
+                <td style="border-right:2px white solid"><a href="#">about me</a></td>
                 <td><a href="#">contact me</a></td>
             </tr>
         </table>
-        <div class="image-div" id="image-div">
+        <div class="image-div wrapper clearfix" id="image-div">
             <h1 class="intro-top">Welcome to my website!</h1>
             <h2 class="intro-mid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, velit?
                 Voluptate, eaque neque? Atque saepe quidem maxime nostrum ut sed odit? Omnis doloremque quas
