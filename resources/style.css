@@ -1,75 +1,75 @@
 @media only screen and (max-width: 400px) {
     body {
-        font-size: 10px;
+        font-size: 6px;
     }
 
     .button {
-        font-size: 10px;
+        font-size: 6px;
     }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
-        font-size: 15px;
+        font-size: 8px;
     }
 
     .button {
-        font-size: 15px;
+        font-size: 8px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     body {
-        font-size: 17px;
+        font-size: 10px;
     }
 
     .button {
-        font-size: 17px;
+        font-size: 10px;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body {
-        font-size: 19px;
+        font-size: 12px;
     }
 
     .button {
-        font-size: 19px;
+        font-size: 12px;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     body {
-        font-size: 21px;
+        font-size: 14px;
     }
 
     .button {
-        font-size: 21px;
+        font-size: 14px;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     body {
-        font-size: 23px;
+        font-size: 16px;
     }
 
     .button {
-        font-size: 23px;
+        font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 1900px) {
     body {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .button {
-        font-size: 25px;
+        font-size: 18px;
     }
 }
 
@@ -80,39 +80,20 @@ body {
 }
 
 .main {
-    /* background-image: url(resources/landscape.jpg); */
     width: 100%;
     margin: 0px;
     padding: 0px;
-    /* max-height: 100vh; */
-    /* background-color:red; */
 }
 
 td {
-    /* margin: 10px; */
-    /* border:1px solid #adadad; */
-    /* padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px; */
-    /* padding:10px; */
-    /* background-color: lightgreen; */
     text-align: center;
 }
 
 table {
-    /* font-size:20px; */
     font-family: 'Roboto Mono', monospace;
-    /* margin:0px; */
-    /* padding:0px; */
-    background-color: rgb(241, 173, 84);
-    /* background-color: darkorange; */
+    background-color: orange;
     width: 100vw;
     height: 5vh;
-}
-
-tr {
-    /* background-color:lightgreen; */
-    /* margin:10px; */
 }
 
 a {
@@ -121,17 +102,13 @@ a {
 
 .image-div {
     width: 100vw;
-    /* height:95vh; */
     padding: 0px;
     margin: 0px;
-    background-color: red;
     text-align: center;
-    /* background-image: url(landscape.jpg); */
     background: linear-gradient(rgba(73, 72, 72, 0.5), rgba(73, 72, 72, 0.5)), url(landscape1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 95vh;
-    /* word-break: break-all; */
 
 }
 
@@ -144,42 +121,23 @@ a {
 }
 
 .intro-mid {
-    color: rgb(230, 221, 185);
+    /* color: rgb(230, 221, 185); */
+    color: white;
     margin-right: 8vw;
     margin-left: 8vw;
     margin-top: 8vh;
     font-family: 'Inter';
-    /* max-height:40vh; */
 }
 
 .intro-end {
-    color: rgb(231, 220, 174);
-    /* vertical-align: bottom; */
+    /* color: rgb(231, 220, 174); */
+    color: white;
     margin-top: 4vh;
-    /* max-height:10vh; */
     word-break: break-all;
 }
 
 .button {
     margin-top: 2vh;
     font-family: monospace;
-    /* background-color:s; */
+
 }
-
-
-/* .wrapper {
-    position: relative;
-}
-
-.clearfix:before,
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    zoom: 1;
-} */
